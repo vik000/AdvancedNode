@@ -39,6 +39,7 @@ router.get('/querystring', [
 ], (req, res, next) => {
   validationResult(req).throw();
   console.log('req.query', req.query);
+  //User.find({name: req.name});
   res.send('ok');
 });
 
