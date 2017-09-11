@@ -7,5 +7,19 @@
   <body>
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
+
+    <%= valor %> <!-- si pusieramos un - en vez del = se ejecutaría el alert -->
+
+    <% if (condicion.estado) { %>
+      <p><%= condicion.segundo %> es par </p>
+    <% } else { %>
+      <p><%= condicion.segundo %> es impar </p>
+    <% } %>
+
+    <% users.forEach(function(user) { %>
+      <p><%= user.name + ' ' + user.age %></p>
+    <% }) %>
+    
+
   </body>
 </html>
