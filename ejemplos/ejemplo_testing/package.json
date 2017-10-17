@@ -6,11 +6,19 @@
   "scripts": {
     "test": "mocha **/*.spec.js --recursive --watch"
   },
+<<<<<<< HEAD
   "keywords": [],
+=======
+>>>>>>> d1a021d2ced3dca8ea32066013d640906392cc86
   "author": "",
   "license": "ISC",
   "dependencies": {
     "chai": "^4.1.2",
+<<<<<<< HEAD
     "mocha": "^4.0.1"
+=======
+    "mocha": "^4.0.1",
+    "sinon": "^4.0.1"
+>>>>>>> d1a021d2ced3dca8ea32066013d640906392cc86
   }
 }
